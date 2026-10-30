@@ -6,7 +6,7 @@ from kitchen.lookup import count_same_item_pairs, find_order, first_order
 from kitchen.orders import make_orders
 from kitchen.timing import best_time, growth_factors
 
-MULTIPLIERS = [1, 2, 4, 8, 16, 32]
+MULTIPLIERS = [1, 2, 3, 4, 5, 8, 10, 12, 14, 16, 20, 24, 28, 32]
 
 
 def time_first(n: int) -> float:
